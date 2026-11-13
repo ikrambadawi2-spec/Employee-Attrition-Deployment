@@ -439,22 +439,5 @@ st.markdown("""
         </div>
     </div>
 
-    <div class="modern-card flex flex-col justify-between">
-        <div>
-            <div class="flex items-center gap-2 mb-2">
-                <span class="badge-pill badge-emerald">
-                    <i class="fa-solid fa-bullseye text-xs"></i>
-                    <span>Page 2</span>
-                </span>
-            </div>
-            <h4 class="text-lg font-bold text-white mb-1">Employee Attrition Prediction Model</h4>
-            <p class="text-slate-300 text-sm leading-relaxed mb-4">
-                Input any candidate profile to receive an immediate XGBoost probability score, flight risk tier, and tailored retention recommendations.
-            </p>
-        </div>
-        <div class="text-xs text-emerald-400 font-semibold">
-            👉 Navigate via Sidebar to: <strong>Employee attrition</strong>
-        </div>
-    </div>
-</div>
+    
 """, unsafe_allow_html=True)
