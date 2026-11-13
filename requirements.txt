@@ -1,9 +1,9 @@
-streamlit>=1.39.0
-pandas>=2.3.3
-numpy>=1.26.4
-plotly>=6.7.0
-scikit-learn>=1.9.1
-xgboost>=3.4.1
-joblib>=1.5.3
-category-encoders>=2.10.0
+streamlit==1.39.0
+pandas==2.3.3
+numpy==1.26.4
+plotly==6.7.0
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.5.3
+category-encoders==2.10.0
 
