@@ -399,49 +399,4 @@ with st.expander("🔍 Click to Explore Custom Workforce Segments", expanded=Fal
         st.warning("No candidates match this specific combination of filters. Try broadening your selection.")
 
 
-# SECTION 6: STRATEGIC HR RECOMMENDATIONS
-st.markdown("<div class='my-6'></div>", unsafe_allow_html=True)
-st.markdown("""
-<div class="modern-card border-slate-700/70">
-    <h3 class="text-xl font-bold text-white mb-2 flex items-center gap-2">
-        <i class="fa-solid fa-chess-knight text-indigo-400"></i>
-        <span>Strategic HR Retention Playbook</span>
-    </h3>
-    <p class="text-slate-300 text-sm mb-4">
-        Actionable, evidence-backed retention recommendations synthesized directly from the dataset findings:
-    </p>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
-            <div class="flex items-center gap-2 text-rose-400 font-bold text-sm mb-2">
-                <i class="fa-solid fa-person-arrow-up-from-line"></i>
-                <span>1. Early-Tenure Career Ladders</span>
-            </div>
-            <p class="text-xs text-slate-300 leading-relaxed">
-                With freshers at 45.3% flight risk, standard annual reviews are too slow. Implement 6-month micro-promotions, project ownership milestones, and formal mentorship to keep early talent engaged.
-            </p>
-        </div>
-
-        <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
-            <div class="flex items-center gap-2 text-amber-400 font-bold text-sm mb-2">
-                <i class="fa-solid fa-house-laptop"></i>
-                <span>2. Remote Equity for Tier-2 Cities</span>
-            </div>
-            <p class="text-xs text-slate-300 leading-relaxed">
-                Candidates in low-CDI cities leave seeking tier-1 metropolitan salaries and projects. Offering competitive remote compensation packages prevents regional brain drain.
-            </p>
-        </div>
-
-        <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
-            <div class="flex items-center gap-2 text-emerald-400 font-bold text-sm mb-2">
-                <i class="fa-solid fa-arrows-split-up-and-left"></i>
-                <span>3. Pre-Graduation Internal Mobility</span>
-            </div>
-            <p class="text-xs text-slate-300 leading-relaxed">
-                Employees enrolled in full-time degrees switch jobs upon graduating (38% churn). Proactively conduct internal placement matching 3 months prior to degree completion.
-            </p>
-        </div>
-    </div>
-</div>
-""", unsafe_allow_html=True)
 
