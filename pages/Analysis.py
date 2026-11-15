@@ -1,6 +1,6 @@
 """
 Analysis Page: Plain-English Workforce Insights & Attrition Drivers
-HR Analytics & Employee Mobility Intelligence
+HR Analytics & Employee Prediction
 """
 
 import streamlit as st
@@ -397,6 +397,7 @@ with st.expander("🔍 Click to Explore Custom Workforce Segments", expanded=Fal
             render_metric_card("Retention Rate", f"{sub_stay:.1f}%", "Expected to stay", "fa-solid fa-shield-halved", "emerald")
     else:
         st.warning("No candidates match this specific combination of filters. Try broadening your selection.")
+
 
 
 

@@ -51,7 +51,7 @@ model, inputs = load_ml_assets()
 
 # Precompute City to City_development_index mapping
 city_cdi_map = df.groupby('City')['City_development_index'].first().to_dict()
-all_cities = sorted(list(city_cdi_map.keys()))
+all_cities = sorted(city_cdi_map.keys(), key=str)
 
 # Hero Banner
 render_hero(
