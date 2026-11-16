@@ -20,7 +20,7 @@ from ui_utils import (
 
 # Page Configuration
 st.set_page_config(
-    page_title="TalentPulse AI | Dataset & Overview",
+    page_title= "Employee Intetion | Dataset & Overview",
     page_icon="🏢",
     layout="wide",
     initial_sidebar_state="expanded"

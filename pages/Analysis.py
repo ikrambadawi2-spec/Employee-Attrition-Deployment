@@ -21,7 +21,7 @@ from ui_utils import (
 
 # Page Configuration
 st.set_page_config(
-    page_title="TalentPulse AI | Workforce Insights & Analysis",
+    page_title=" Workforce Insights & Analysis",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"

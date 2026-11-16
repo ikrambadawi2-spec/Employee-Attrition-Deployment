@@ -22,7 +22,7 @@ from ui_utils import (
 
 # Page Configuration
 st.set_page_config(
-    page_title="TalentPulse AI | Attrition Predictor",
+    page_title=" Attrition Predictor",
     page_icon="🔮",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -378,7 +378,3 @@ if submit_btn or 'has_predicted' in st.session_state:
     </div>
     """, unsafe_allow_html=True)
 
-    # 4. Expandable Model Input Inspection
-    with st.expander("🛠️ Inspect Model Input Vector (DataFrame)", expanded=False):
-        st.dataframe(test_row, use_container_width=True)
-        st.caption("This 13-feature row is transformed via StandardScaler, RobustScaler, OneHotEncoder, and OrdinalEncoder before passing into XGBClassifier.")
